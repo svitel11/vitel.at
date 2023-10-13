@@ -2,7 +2,7 @@
 
 import {ref} from "vue";
 
-const imagesPath = ref("/src/assets/")
+const imagesPath = ref("/assets/")
 
 const bracketOpen = ref(imagesPath.value + "bracket_open.webp")
 const bracketClose = ref(imagesPath.value + "bracket_close.webp")

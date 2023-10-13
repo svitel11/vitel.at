@@ -15,8 +15,8 @@
     <div><span class="color-gray">Ich bin </span>Samuel Vitel<span class="color-gray">,</span></div>
     <div><span class="color-gray">ein leidenschaftlicher  </span>Webentwickler<span class="color-gray">,</span></div>
     <div><span class="color-gray">aus  </span>Wien<span class="color-gray">.</span></div> <br>
-<!--    <div><span class="color-gray">Ich bin bei der  </span>ORF Enterprise GmbH & Co KG beschäftigt
-      <span class="color-gray">und verfüge darüber hinaus über ein eigenes kleines Unternehmen in dem ich </span>Kunden gerne bei spannenden Projekten unterstütze.</div> <br>-->
+    <div><span class="color-gray">Ich bin bei der  </span>ORF Enterprise GmbH & Co KG beschäftigt
+      <span class="color-gray">und verfüge darüber hinaus über ein eigenes kleines Unternehmen in dem ich </span>Kunden gerne bei spannenden Projekten unterstütze.</div> <br>
     <div><span class="color-gray">Email: </span><span class="email-after"></span></div>
   </div>
 </template>
