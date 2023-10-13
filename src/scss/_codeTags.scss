@@ -1,0 +1,50 @@
+@import "colors";
+
+$email: 'dev@vitel.at';
+
+//title
+.title-tag {
+  display: flex;
+  align-items: center;
+
+  span {
+    color: $color4;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+}
+.title-tag::before, .title-tag::after {
+  font-size: .4em;
+  opacity: .4;
+  color: $color3;
+  font-family: PressStart2P, monospace;
+}
+.title-tag::before {content: "<title>";}
+.title-tag::after {content: "</title>";}
+
+//name, address, email
+.name-tag, .address-tag, .email-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    color: $color3;
+    font-weight: lighter;
+    font-size: 1.4em;
+  }
+}
+.name-tag::before, .name-tag::after, .address-tag::before, .address-tag::after, .email-tag::before, .email-tag::after {
+  font-size: .5em;
+  opacity: .8;
+  color: $color2;
+  font-family: PressStart2P, monospace;
+}
+.name-tag::before, {content: "<name>";}
+.name-tag::after {content: "</name>";}
+.address-tag::before {content: "<address>";}
+.address-tag::after {content: "</address>";}
+.email-tag::before {content: "<email>";}
+.email-tag::after {content: "</email>";}
+.email-after::after {content: $email;}
+

@@ -1,0 +1,23 @@
+@import "colors";
+
+#footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid $color2;
+  padding: 20px 0;
+  align-items: center;
+
+  a {
+    color: $color3;
+    font-family: "Fira Code Light", monospace;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 10px;
+
+    &:hover {
+      color: $color2;
+    }
+  }
+}

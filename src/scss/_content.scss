@@ -1,0 +1,54 @@
+@import "colors";
+
+#content {
+  display: flex;
+  font-family: "Fira Code", monospace;
+
+  .about-me {
+    flex: 1 1 38%;
+    color: $color4;
+    padding: 1em;
+  }
+
+  .what-i-do {
+    flex: 1 1 38%;
+    color: $color4;
+    padding: 1em;
+  }
+
+  .my-stack {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 20%;
+    color: $color4;
+    padding: 1em;
+
+    .bracket-open-box, .bracket-close-box {
+      display: flex;
+      align-items: center;
+
+      .fake-lines {
+        color: $color2;
+      }
+    }
+
+    .bracket-open, .bracket-close {
+      max-width: 60px;
+    }
+
+    .stack-image-box {
+      display: flex;
+      align-items: center;
+
+      .fake-lines {
+        color: $color2;
+      }
+
+
+      .stack-image {
+        max-width: 45px;
+        margin: 1em;
+      }
+    }
+  }
+}
